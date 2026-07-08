@@ -157,3 +157,11 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.dev/docs/reference/configuration)
 - [CLI Usage](https://turborepo.dev/docs/reference/command-line-reference)
+
+
+
+
+
+Production Server - Public IPv4  →  100.53.238.232  -  cicd_prod_25_ws.xyz  ,  cicd_prod_25_http.xyz  ,  cicd_prod_25_fe.xyz
+
+staging Server - Public IPv4  ->   3.92.55.35    -  cicd_staging_25_ws.xyz , cicd_staging_25_http.xyz , cicd_staging_25_fe.xyz
