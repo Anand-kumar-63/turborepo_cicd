@@ -2,11 +2,19 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "keywords": [],
+  
   "exports": {
-    "./clients": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts"
+  },
+  "types": "./dist/index.d.ts",
   "author": "",
   "license": "ISC",
   "type": "module",

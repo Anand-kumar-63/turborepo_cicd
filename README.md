@@ -162,3 +162,8 @@ Learn more about the power of Turborepo:
 
 
 
+// notes 
+tsup is a TypeScript bundler/build tool. It converts your .ts files into JavaScript files that Node.js can actually run.
+
+"build": "tsup ./src/index.ts" 
+
